@@ -20,17 +20,19 @@ requirements:
     - flit
     - python >=3.8
   run:
-    - dask-core
+    - affine
     - geopandas >=0.8
-    - hydromt >=0.4.5
-    - netcdf4
+    - hydromt >=0.7.1
+    - numba
     - numpy
     - pandas
+    - pillow
     - pyflwdir >=0.5.5
-    - pygeos
+    - pyproj
     - python >=3.8
     - rasterio
     - scipy
+    - shapely
     - xarray
 
 test:
@@ -38,12 +40,13 @@ test:
     - hydromt_sfincs
   commands:
     - pip check
+    - hydromt --models
   requires:
     - pip
 
 about:
   home: https://pypi.org/project/hydromt_sfincs/
-  summary: hydroMT plugin for sfincs models.
+  summary: HydroMT plugin for SFINCS models.
   doc_url: https://deltares.github.io/hydromt_sfincs/stable
   dev_url: https://github.com/Deltares/hydromt_sfincs
   license: GPL-3.0-or-later
@@ -53,3 +56,4 @@ extra:
   recipe-maintainers:
     - DirkEilander
     - Leynse
+    - roeldegoede
