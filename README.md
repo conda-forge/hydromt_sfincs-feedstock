@@ -7,7 +7,7 @@ Home: https://pypi.org/project/hydromt_sfincs/
 
 Package license: GPL-3.0-or-later
 
-Summary: hydroMT plugin for sfincs models.
+Summary: HydroMT plugin for SFINCS models.
 
 Development: https://github.com/Deltares/hydromt_sfincs
 
@@ -149,4 +149,5 @@ Feedstock Maintainers
 
 * [@DirkEilander](https://github.com/DirkEilander/)
 * [@Leynse](https://github.com/Leynse/)
+* [@roeldegoede](https://github.com/roeldegoede/)
 
