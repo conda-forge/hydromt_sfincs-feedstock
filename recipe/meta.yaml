@@ -22,7 +22,7 @@ requirements:
   run:
     - affine
     - geopandas >=0.8
-    - hydromt >=0.7.1
+    - hydromt >=0.8,<0.9
     - numba
     - numpy
     - pandas
