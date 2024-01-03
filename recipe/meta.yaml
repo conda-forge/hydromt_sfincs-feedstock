@@ -22,14 +22,14 @@ requirements:
   run:
     - affine
     - geopandas >=0.8
-    - hydromt >=0.8,<0.9
+    - hydromt >=0.9.1,<0.10
     - numba
     - numpy
     - pandas
     - pillow
     - pyflwdir >=0.5.5
     - pyproj
-    - python >=3.8
+    - python >=3.9
     - rasterio
     - scipy
     - shapely
