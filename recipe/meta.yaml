@@ -6,19 +6,19 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hydromt_sfincs-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hydromt_sfincs-{{ version }}.tar.gz
   sha256: 59e674c0e18fecd661cc55aed8c17ad9e79fc436fd80018fc5cb5f5ad6f90742
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - pip
     - flit
-    - python >=3.8
+    - python {{ python_min }}
   run:
     - affine
     - geopandas >=1.0
@@ -29,7 +29,7 @@ requirements:
     - pillow
     - pyflwdir >=0.5.5
     - pyproj
-    - python >=3.9
+    - python >={{ python_min }}
     - rasterio
     - scipy
     - shapely
@@ -43,6 +43,7 @@ test:
     - hydromt --models
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://pypi.org/project/hydromt_sfincs/
