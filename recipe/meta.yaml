@@ -22,18 +22,19 @@ requirements:
   run:
     - affine
     - geopandas >=1.0
-    - hydromt >=0.10.0,<0.11
+    - hydromt >=0.10.1,<1.0
     - numba
     - numpy
     - pandas
     - pillow
-    - pyflwdir >=0.5.5
+    - pyflwdir >=0.5.10
     - pyproj
     - python >={{ python_min }}
     - rasterio
     - scipy
     - shapely
     - xarray
+    - xugrid >=0.12,<1.0
 
 test:
   imports:
