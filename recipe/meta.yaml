@@ -1,5 +1,5 @@
 {% set name = "hydromt_sfincs" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hydromt_sfincs-{{ version }}.tar.gz
-  sha256: 59e674c0e18fecd661cc55aed8c17ad9e79fc436fd80018fc5cb5f5ad6f90742
+  sha256: 749df2d06197ed6d490b717564cd53745547a1b5a89af3258451063aaec8dd51
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
@@ -22,18 +22,19 @@ requirements:
   run:
     - affine
     - geopandas >=1.0
-    - hydromt >=0.10.0,<0.11
+    - hydromt >=0.10.1,<1.0
     - numba
     - numpy
     - pandas
     - pillow
-    - pyflwdir >=0.5.5
+    - pyflwdir >=0.5.10
     - pyproj
     - python >={{ python_min }}
     - rasterio
     - scipy
     - shapely
     - xarray
+    - xugrid >=0.12,<1.0
 
 test:
   imports:
