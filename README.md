@@ -31,7 +31,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-hydromt_sfincs-green.svg)](https://anaconda.org/conda-forge/hydromt_sfincs) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/hydromt_sfincs.svg)](https://anaconda.org/conda-forge/hydromt_sfincs) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/hydromt_sfincs.svg)](https://anaconda.org/conda-forge/hydromt_sfincs) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/hydromt_sfincs.svg)](https://anaconda.org/conda-forge/hydromt_sfincs) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-hydromt__sfincs-green.svg)](https://anaconda.org/conda-forge/hydromt_sfincs) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/hydromt_sfincs.svg)](https://anaconda.org/conda-forge/hydromt_sfincs) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/hydromt_sfincs.svg)](https://anaconda.org/conda-forge/hydromt_sfincs) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/hydromt_sfincs.svg)](https://anaconda.org/conda-forge/hydromt_sfincs) |
 
 Installing hydromt_sfincs
 =========================
@@ -149,5 +149,6 @@ Feedstock Maintainers
 
 * [@DirkEilander](https://github.com/DirkEilander/)
 * [@Leynse](https://github.com/Leynse/)
+* [@deltares-service-account](https://github.com/deltares-service-account/)
 * [@roeldegoede](https://github.com/roeldegoede/)
 
