@@ -34,7 +34,7 @@ requirements:
     - scipy
     - shapely
     - xarray
-    - xugrid >=0.12,<1.0
+    - xugrid >=0.14,<1.0
 
 test:
   imports:
