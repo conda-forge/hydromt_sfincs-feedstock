@@ -19,11 +19,10 @@ requirements:
     - pip
     - flit
     - python {{ python_min }}
-    - hydromt >=0.10.1,<1.0
   run:
     - affine
     - geopandas >=1.0
-    - hydromt >=0.10.1,<1.0
+    - hydromt >=0.10.1,<1.0a0
     - numba
     - numpy
     - pandas
