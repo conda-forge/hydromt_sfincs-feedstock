@@ -1,5 +1,5 @@
 {% set name = "hydromt_sfincs" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hydromt_sfincs-{{ version }}.tar.gz
-  sha256: 749df2d06197ed6d490b717564cd53745547a1b5a89af3258451063aaec8dd51
+  sha256: d7b3148875e04f31a625bb72e4b36bc0ad31a6bc66194ec15f081d41fe6f4118
 
 build:
   noarch: python
