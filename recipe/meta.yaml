@@ -1,13 +1,13 @@
 {% set name = "hydromt_sfincs" %}
-{% set version = "1.2.2" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hydromt_sfincs-{{ version }}.tar.gz
-  sha256: a7fb3604c67ece899d0b93ed96df5f7a29274b5643a1a8d7758165ac145aa84d
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/hydromt_sfincs-{{ version }}.tar.gz
+  sha256: 5a56751e0fc0dcb0e541334968efc5694f21884d988203d9135802701fce5b68
 
 build:
   noarch: python
